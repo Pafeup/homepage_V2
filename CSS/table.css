@@ -1,0 +1,31 @@
+.table {
+  border-collapse: collapse;
+  margin: auto;
+  color: #2c2c2c;
+  background-color: #eee;
+}
+
+.tableCell {
+  border: rgb(0, 0, 0) solid 1px;
+  padding: 20px;
+  text-align: center;
+}
+
+.tableCell--header {
+  background-color: crimson;
+  color: whitesmoke;
+  font-weight: normal;
+}
+
+.table__caption {
+  caption-side: bottom;
+}
+
+.table__songLink {
+  color: white;
+  text-decoration: none;
+}
+
+.table__songLink:hover {
+  text-decoration-line: underline;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/footer.css" rel="stylesheet" />
+    <link href="CSS/main.css" rel="stylesheet" />
+    <link href="CSS/nav.css" rel="stylesheet" />
+    <link href="CSS/section.css" rel="stylesheet" />
+    <link href="CSS/table.css" rel="stylesheet" />
+    <link href="CSS/article.css" rel="stylesheet" />
+    <link href="CSS/button.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="JS/scripts.js"></script>
+    <title>REAKTYWACJA</title>
+  </head>
+  <body class="body">
+    <main class="main">
+      <header class="main__header">
+        <h1 class="naglowek">Paweł Pełka</h1>
+      </header>
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__listItem">
+            <a class="nav__linkItem" href="#omnie">O mnie</a>
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__linkItem" href="#Zainteresowania/Hobby"
+              >Zainteresowania / Hobby</a
+            >
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__linkItem" href="#tabela">Tabelka</a>
+          </li>
+          <li class="nav__listItem">
+            <a class="nav__linkItem" href="#guzik">Przycisk interakcji</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="section" id="omnie">
+        <h2 class="section__header">O mnie</h2>
+        <img height="300" class="photo" src="images/Me.jpg" />
+        <article class="article">
+          <p class="article__paragraph">
+            Urodziłem się w Gdańsku na Przymorzu. W wieku 5 lat stety, bądź
+            niestety <em>przeprowadziliśmy</em> się do Warszawy.<br />
+            Ukończyłem Technikum na kierunku
+            <strong>Technik architektury krajobrazu</strong>.<br />
+            Na co dzień pracuję i od niedawna zgłębiam tajniki programowania z
+            kursem od
+            <i>YouCode</i>.
+          </p>
+        </article>
+      </section>
+      <section class="section" id="Zainteresowania/Hobby">
+        <h2 class="section__header">Zainteresowania / Hobby</h2>
+        <article class="article">
+          <p class="article__paragraph">
+            Od dłuższego czasu, moim największym zainteresowaniem jest
+            <strong>kawa</strong> i wszysko co z nią związane.<br />
+            Ogromną frajdę i satysfakcję sprawia mi eksperymentowanie z różnymi
+            rodzajami kawy, syropami, przyprawami, czy rodzajami mleka lub
+            napojami roślinnymi takimi jak
+            <b>sojowe</b>, <b>owsiane</b> bądź <b>migdałowe</b>.<br />
+            Swoje baristyncze umiejętności szlifuję również w zakresie sztuki
+            <i>Latte art</i>, czyli malowania wzorów na kawie.
+          </p>
+          <p class="article__paragraph">
+            W wolnym czasie lubię grać na gitarze, a także próbuję swoich sił na
+            klawiszach.
+          </p>
+          <p class="article__paragraph">
+            W okresie wiosenno-letnim, kiedy pogoda dopisuje wybieram się ze
+            znajomymi na dalekie wypady rowerowe. Rekreacyjnie też lubię
+            pojeździć na <i>Longboardzie</i>.
+          </p>
+          <p class="article__paragraph">
+            Od czasu do czasu lubię ze znajomymi <em>"pograć w komputer"</em>.
+          </p>
+        </article>
+      </section>
+
+      <section id="tabela" class="section section--table">
+        <h2 class="section__header">Zestawienie ulubionej muzyki</h2>
+        <table class="table">
+          <caption class="table__caption">
+            aktualne na dzień 15.08.2024r
+          </caption>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">Tytuł</th>
+            <th class="tableCell tableCell--header">Wykonawca</th>
+            <th class="tableCell tableCell--header">Album</th>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">
+              <a
+                class="table__songLink"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=Py1TAbFKeRY"
+              >
+                Nimbostratus
+              </a>
+            </th>
+
+            <td class="tableCell" rowspan="3">Sanah</td>
+            <td class="tableCell" rowspan="2">Kaprysy</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">
+              <a
+                class="table__songLink"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=tSiOWFwHR4U"
+              >
+                Miłość jest ślepa
+              </a>
+            </th>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">
+              <a
+                class="table__songLink"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=5Iwy_xeJi7c"
+              >
+                ostatnia nadzieja
+              </a>
+            </th>
+            <td class="tableCell">UCZTA</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">
+              <a
+                class="table__songLink"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=MlInnWzYiZo"
+              >
+                Mogło być nic
+              </a>
+            </th>
+            <td class="tableCell" rowspan="2">Kwiat jabłoni</td>
+            <td class="tableCell">Mogło być nic</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">
+              <a
+                class="table__songLink"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=FWDXwrgdm9w"
+              >
+                Dziś późno pójdę spać
+              </a>
+            </th>
+            <td class="tableCell">Niemożliwe</td>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableCell--header">
+              <a
+                class="table__songLink"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=zfL1I7WpEdk"
+              >
+                To co masz Ty!
+              </a>
+            </th>
+            <td class="tableCell">Dawid Podsiadło</td>
+            <td class="tableCell">Lata dwudzieste</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <button class="button" id="guzik">
+          Włącz <span class="themeName">ciemny 🌙</span> motyw
+        </button>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__paragraph">Wszelkie prawa zastrzeżone©</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.button {
+  padding: 20px;
+  font-size: large;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #7e7e7e;
+  color: #fff;
+  width: 200px;
+}
+
+.button--bright {
+  color: #313131;
+  background-color: #fff;
+}

@@ -1,0 +1,29 @@
+.nav {
+  border-bottom: crimson solid 1px;
+  box-shadow: 3px 21px 9px -23px rgba(66, 68, 90, 1);
+  margin-bottom: 40px;
+}
+
+.nav__ul {
+  list-style: none;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.nav__linkItem {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__linkItem:hover {
+  text-decoration: underline 1px;
+  color: crimson;
+}
+
+.nav__linkItem:active {
+    color: hsl(348, 83%, 57%);
+}
+
+.nav__linkItem:visited {
+  text-decoration: none;
+}
