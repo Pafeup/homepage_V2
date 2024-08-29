@@ -8,6 +8,9 @@
   list-style: none;
   font-size: 20px;
   line-height: 2;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
 }
 
 .nav__linkItem {
