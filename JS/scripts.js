@@ -1,11 +1,27 @@
-console.log("Hello world!")
+{
+    const button = document.querySelector(".button")
 
-let button = document.querySelector(".button")
-let body = document.querySelector(".body")
-let themeName = document.querySelector(".themeName")
+    const welcome = () => {
+        console.log("Hello world!");
+    };
+    
+    const toggleBackgroundColor = () => {
+        const body = document.querySelector(".body")
+        const themeName = document.querySelector(".themeName")
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark")
-    button.classList.toggle("button--bright")
-    themeName.innerText = button.classList.contains("bright") ? "jasny 🌞" : "ciemny 🌙"
-});
+        body.classList.toggle("dark")
+        button.classList.toggle("button--bright")
+        themeName.innerText = button.classList.contains("button--bright") ? "jasny 🌞" : "ciemny 🌙";
+    };
+
+    const changeTheme = () => {
+        button.addEventListener("click", toggleBackgroundColor);
+    };
+
+    const init = () => {
+        changeTheme();
+        welcome();
+    };
+
+    init();
+}
